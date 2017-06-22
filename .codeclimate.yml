@@ -20,7 +20,7 @@ engines:
       languages:
         python:
           python_version: 2
-        javascript      
+        javascript:
 ratings:
   paths:
   - app/**
