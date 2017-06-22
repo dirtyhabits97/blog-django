@@ -4,9 +4,9 @@ engines:
     #checks:
     #	Rubocop/Metrics/ClassLength:
     #  	enabled: false
-  radon: 
+  radon:
     enabled: true
-    config: 
+    config:
       python_version: 2
   golint:
    	enabled: true
