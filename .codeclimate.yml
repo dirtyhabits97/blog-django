@@ -18,9 +18,9 @@ engines:
     enabled: true
     config:
       languages:
-      - python:
-        python_version: 2
-      - javascript      
+        python:
+          python_version: 2
+        javascript      
 ratings:
   paths:
   - app/**
