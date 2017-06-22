@@ -4,6 +4,8 @@ engines:
     #checks:
     #	Rubocop/Metrics/ClassLength:
     #  	enabled: false
+  radon: 
+    enabled: true
   golint:
    	enabled: true
   eslint:
@@ -23,6 +25,7 @@ ratings:
   - lib/**
   - "**.rb"
   - "**.go"
+  - "**.py"
 exclude_paths:
 - spec/**/*
 - "**/vendor/**/*"
